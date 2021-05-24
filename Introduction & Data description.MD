@@ -9,12 +9,13 @@ We suggest the more Asian restaurants the city have, the more Asian immigrants i
 
 ### Data Description
 Based on definition of our problem, factors that will influence our comparison are:
-•	number of existing restaurants in the neighborhood (East Asian, Southeast Asian, and other types in total)
-•	numbers and any distance of Asian restaurants in the neighborhood, if any
-•	distance of neighborhood from city center
+
+* number of existing restaurants in the neighborhood (East Asian, Southeast Asian, and other types in total)
+* numbers and any distance of Asian restaurants in the neighborhood, if any
+* distance of neighborhood from city center
 
 We decided to use regularly spaced grid of locations, centered around city center, to define our neighborhoods.
 Following data sources will be needed to extract/generate the required information:
-•	centers of candidate areas will be generated algorithmically and approximate addresses of centers of those areas will be obtained using Google Maps API reverse geocoding
-•	number of restaurants and their type and location in every neighborhood will be obtained using Foursquare API
-•	coordinate of NYC & Toronto center will be obtained using Google Maps API geocoding of well known location
+* centers of candidate areas will be generated algorithmically and approximate addresses of centers of those areas will be obtained using Google Maps API reverse geocoding
+* number of restaurants and their type and location in every neighborhood will be obtained using Foursquare API
+* coordinate of NYC & Toronto center will be obtained using Google Maps API geocoding of well known location
