@@ -8,11 +8,14 @@ In this project we will compare New York City and the city of Toronto in terms o
 We will try to detect locations in scale of neighborhood that are having Asian restaurants. We are also particularly interested in **numbers and distance of Asian restaurants in each area**. We would also find **whether the selected locations are close to city center**.
 We suggest the more Asian restaurants the city have, the more Asian immigrants in the city. This comparison may determine the immigration level of these two cities and their dissimilar as multicultural cities. 
 
+The target audience would be thouse who care about urban planning, social science and those who would be potential immigrants in considering about chooseing a city to live. 
+
+
 ### Data Description
 Based on definition of our problem, factors that will influence our comparison are:
 
 * number of existing restaurants in the neighborhood (East Asian, Southeast Asian, and other types in total)
-* numbers and any distance of Asian restaurants in the neighborhood, if any
+* numbers and any distance of Asian restaurants in the neighborhood, absolute and common-share forms required
 * distance of neighborhood from city center
 
 We decided to use regularly spaced grid of locations, centered around city center, to define our neighborhoods.
